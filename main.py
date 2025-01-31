@@ -33,7 +33,7 @@ def get_student(id):
         if student ['id'] == id:
             return jsonify(student)
 
-@app.route('/stats')
+@app.route('/stat')
 def get_stats():
     statis = {
         "Chicken": 0,
